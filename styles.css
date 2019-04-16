@@ -122,7 +122,7 @@ section#work {
 }
 
 .web-logos {
-	margin-top: 10px;
+	margin: 10px;
 }
 
 .info {
@@ -130,7 +130,7 @@ section#work {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: right;
+	align-items: center;
 }
 
 .info ul {
