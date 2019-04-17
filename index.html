@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
 	<title>Kyle Knutson Portfolio</title>
 	<meta name="viewport" content="width=device-width">
@@ -20,12 +20,12 @@
 	<main role="main">
 
 		<header id="hero" role="banner">
-			<h1>Heyo. Name's <span class="hilite">Kyle</span>.<br><br> I'm a fullstack developer,<br> artist, and indie game-dev enthusiast :)</h1>
+			<h1>Heyo. Name's <span class="hilite">Kyle</span>.<br><br> I'm a blossoming fullstack developer,<br> artist, and indie game enthusiast :)</h1>
 		</header>
 
 		<section id="bio">
-			<div class="selfie">Selfie</div>
-			<div class="">
+			<img class="selfie" src="img/profile-pic.jpg" />
+			<div class="about">
 				<h2>Somethings you might wanna know:<br></h2>
 				<p>
 					I love to draw,<br>
@@ -34,8 +34,6 @@
 					I'm married to a wonderful woman, <br>
 					and we play the hell out of Borderlands2.<br><br>
 					I build games when I get any spare time.<br><br>
-					I'm a blossoming web developer,<br>
-					UX designer and game developer.<br>
 				</p>
 			</div>
 
@@ -45,11 +43,11 @@
 
 			<div class="quiz-app">
 				<div class="screen-shot">
-					<div class="image">Screen Shot</div>
+					<img class="image" src="img/ss-question.png" />
 				</div>
 
 				<div class="info">
-					<img class="web-logos" src="webTech-logos.png" width="100px" height=""100px"/>
+					<img class="web-logos" src="img/webTech-logos.png" width="60px" height="60px"/>
 					<ul>
 						<li>An quiz-game with eleven multiple-choice questions.</li>
 						<li>User's given feedback after answering each question.</li> 
@@ -77,11 +75,23 @@
 			<p>Go ahead, get <i class="fas fa-at"></i> me</p>
 			<a href="mailto:knutson.kyle86@gmail.com"><i class="far fa-paper-plane"></i></a>
 		</footer>
+		<p class="extra-space"></p>
 	</main>
 
 	
 
 
-	<script type="text/javascript"></script>
+	<script type="text/javascript">
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+  		if (prevScrollpos > currentScrollPos) {
+    		document.getElementById("nav").style.left = "0";
+  		} else {
+    		document.getElementById("nav").style.left = "-50px";
+  		}
+  		prevScrollpos = currentScrollPos;
+		}
+	</script>
 </body>
 </html>
