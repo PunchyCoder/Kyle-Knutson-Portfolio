@@ -243,7 +243,7 @@ footer p {
 	.info li {
 		list-style-type: none;
 		padding: 5px;
-		margin: 5px;
+		margin: 5px 5%;
 		color: white;
 		background-color: #9951ff;
 	}
