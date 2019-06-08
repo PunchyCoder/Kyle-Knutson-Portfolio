@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en"> 
-<head>
+<head> 
 	<title>Kyle Knutson Portfolio</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Hammersmith+One|Jua|VT323|Yantramanav" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Julius+Sans+One&display=swap" rel="stylesheet">
 </head>
 
 <body> 
@@ -17,38 +17,43 @@
 			<li><a href="#contact"><i class="fas fa-user-astronaut"></i></a></li>
 		</ul>
 	</nav>
+
 	<main role="main">
 
-		<header id="hero" role="banner">
-			<h1>Heyo. Name's <span class="hilite">Kyle</span>.<br><br> I'm a blossoming fullstack developer,<br> artist, and indie game enthusiast :)</h1>
+		<header id="hero" class="font-L" role="banner">
+			<h1>Hey, name's <span class="hilite font-B">Kyle</span>.<br><br> I'm a flowering fullstack developer,<br> artist, and indie game enthusiast</h1>
 		</header>
 
 		<section id="bio">
-			<img class="selfie" src="profile-pic.jpg" />
+			<img class="selfie" src="img/profile-pic-2.jpg" />
 			<div class="about">
-				<h2>Somethings you might wanna know:<br></h2>
-				<p>
-					I love to draw,<br>
-					been doing it since I was a kid.<br><br>
-					I actually like the tast of black coffee.<br><br>
-					I'm married to a wonderful woman, <br>
-					and we play the hell out of Borderlands2.<br><br>
-					I build games when I get any spare time.<br><br>
-				</p>
+				<h2>A few things about me:</h2>
+				<div>
+					<p>I'm currently a student of Thinkful's Full Stack Flex Program</p>
+					<p>I've found that I really like learning to build beautiful UIs</p>
+					<p>I started to learn coding so I could build games from scratch</p>
+					<p>I love to draw</p>
+					
+				</div>
 			</div>
-
 		</section>
 
 		<section id="work">
-
-			<div class="quiz-app">
+			<div class="project">
 				<div class="screen-shot">
-					<img class="image" src="ss-question.png" />
+					<img class="image" src="img/ss-question.png" />
 				</div>
 
-				<div class="info">
-					<img class="web-logos" src="webTech-logos.png" width="60px" height="60px"/>
-					<ul>
+				<div>
+					<ul class="tech-used">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>jQuery</li>
+					</ul>
+				</div>
+				<div >
+					<ul class="description">
 						<li>An quiz-game with eleven multiple-choice questions.</li>
 						<li>User's given feedback after answering each question.</li> 
 						<li>Score and question count are Displayed.</li>
@@ -57,6 +62,7 @@
 						<li>App utilizes a11y's accessablility best practices.</li>
 					</ul>
 				</div>
+
 				<div class="links">
 					<ul>
 						<li><a href="https://punchycoder.github.io/borderlands2-quiz-app/" target="_blank">Live App</a> on GitHup Pages </li>
@@ -64,15 +70,42 @@
 						<li><a href="https://github.com/PunchyCoder/borderlands2-quiz-app" target="_blank"> Repo</a> on GitHub</li>
 					</ul>
 				</div>
-				
+			</div>
+
+			<div class="project">
+				<div class="screen-shot">
+					<img class="image" src="img/fanServer-hero.png" />
+				</div>
+
+				<div>
+					<ul class="tech-used">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>jQuery</li>
+					</ul>
+				</div>
+				<div>
+					<ul class="description">
+						<li>Platform for searching Anime titles by keywords</li>
+						<li>View title, synopsis, trailer, approval rating and more for each result. </li>
+						<li>Utilizes <a href="https://kitsu.docs.apiary.io/#" target="_blank">Kitsu API</a></li>
+					</ul>
+				</div>
+				<div class="links">
+					<ul>
+						<li><a href="https://punchycoder.github.io/FanServer-app/" target="_blank">Live App</a> on GitHup Pages </li>
+						<li> | </li>
+						<li><a href="https://github.com/PunchyCoder/FanServer-app" target="_blank"> Repo</a> on GitHub</li>
+					</ul>
+				</div>
 			</div>
 		</section>
 
 		<!-- <hr> -->
 
 		<footer id="contact">
-			<br>
-			<p>Go ahead, get <i class="fas fa-at"></i> me</p>
+			<p>To get in contact with me click or tap the paper airplane</p>
 			<a href="mailto:knutson.kyle86@gmail.com"><i class="far fa-paper-plane"></i></a>
 		</footer>
 		<p class="extra-space"></p>
