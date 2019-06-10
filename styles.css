@@ -24,7 +24,6 @@ light red - #ff4949
 dark red  - #c10000
 */
 
-
 nav {
 	position: fixed;
 	top: 40%;
@@ -98,7 +97,6 @@ section#bio {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
-	/*align-items: center;*/
 	margin-bottom: 20px;
 }
 
@@ -328,7 +326,6 @@ footer a:hover{
 	.selfie {
 		width: 360px;
 		height: 360px;
-		margin: 0 auto;
 		border: solid 1px #7730dd;
 	}
 
